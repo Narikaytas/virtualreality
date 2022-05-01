@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="virtualreality.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
     <title>Document</title>
 </head>
 <body>
@@ -19,16 +20,25 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav liItems">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#products">Products</a>
+            <a class="nav-link" href="#features">Features</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#recentblogs">Recent Blogs</a>
+            <a class="nav-link" href="#kit">Kit Section</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#delandpay">Delivery & Payment</a>
+            <a class="nav-link" href="#optics">Optics & Controllers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#blog">Our Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#products">Our Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contactus">Contact Us</a>
           </li>
         </ul>
       </div>
@@ -39,7 +49,7 @@
     <button class="but">View More</button>
   </section>
   <!-- Features Section -->
-  <div class="container-fluid">
+  <div class="container-fluid" id="features">
       <div class="container">
           <div class="row">
               <div class="col-12 topSection">
@@ -80,7 +90,7 @@
       </div>
   </div>
   <!-- Website Kit Section -->
-  <div class="container-fluid">
+  <div class="container-fluid" id="kit">
       <div class="container vrKit">
             <div class="row">
                 <div class="col-12 topSection">
@@ -100,7 +110,194 @@
             </div>
       </div>
   </div>
+  <!-- Optics and Controllers Section -->
+  <div class="container-fluid" id="optics">
+      <div class="container optCtrlStyle mt-3 mb-3">
+        <div class="row mb-3">
+            <div class="col-12 topSection">
+                <h1>Optics & Contollers</h1>
+            </div>
+            <div class="col-12 col-md-6 order-1 order-md-2">
+                  <img src="images/vr-optics-img.png" class="optCtrlSecImg">
+            </div>
+            <div class="d-flex flex-column justify-content-center col-12 col-md-6 order-2 order-md-1 optsCtrlSec mt-3 mb-3">
+                <h1>Improved Optics</h1>
+                <p>A virtual reality headset is a head-mounted device that provides virtual reality for the wearer.</p>
+                <button>Read More</button>
+            </div>
+        </div>
+
+
+        <div class="row mt-3">
+            <div class="col-12 col-md-6 order-1 order-md-2">
+                <img src="images/vr-controllers-img.png" class="optCtrlSecImg">
+            </div>
+            <div class="d-flex flex-column justify-content-center col-12 col-md-6 order-1 order-md-2 optsCtrlSec mt-3 mb-3">
+                <h1>Two Touch Controllers</h1>
+                <p>Your Oculus Touch controllers are a pair of tracked controllers that give you a hand.</p>
+                <button>Read More</button>
+            </div>
+        </div>
+      </div>
+  </div>
  
+<!-- blog section -->
+<div class="pt-5 pb-5" id="blog">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="trending-blogs-section-heading pb-2">Trending Blogs</h1>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="shadow mb-3">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-trending-blogs-1-img.png" class="w-100" />
+                    <div class="p-3">
+                        <h1 class="trending-blogs-card-title">Amazon</h1>
+                        <p class="trending-blogs-card-description">
+                            New Way to See the World. It is a simulated experience that can
+                            be completely different from the real world.
+                        </p>
+                        <a class="trending-blogs-card-link" href="">
+                            READ MORE
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="#1754a1" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="shadow mb-3">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-trending-blogs-2-img.png" class="w-100" />
+                    <div class="p-3">
+                        <h1 class="trending-blogs-card-title">Advertising</h1>
+                        <p class="trending-blogs-card-description">
+                            The best one for you. Come experience the wonder of Google Earth
+                            in virtual reality.
+                        </p>
+                        <a class="trending-blogs-card-link" href="">
+                            READ MORE
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="#1754a1" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 d-flex flex-row justify-content-end">
+                <button class="view-all-button">View All</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- product section -->
+<div class="pt-5 pb-5" id="products">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="products-section-heading pb-2">Products</h1>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="product-card vr-headset-bg-container d-flex flex-column justify-content-end p-3 mb-3">
+                    <h1 class="product-card-title">VR Headset</h1>
+                    <p class="product-card-price">Rs 75,000</p>
+                    <button class="buy-now-button">Buy Now</button>
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="product-card touch-controller-bg-container d-flex flex-column justify-content-end p-3 mb-3">
+                    <h1 class="product-card-title">VR Headset and Two Touch Controllers</h1>
+                    <p class="product-card-price">Rs 90,000</p>
+                    <button class="buy-now-button">Buy Now</button>
+                </div>
+            </div>
+            <div class="col-12 d-flex flex-row justify-content-end">
+                <button class="view-all-button">View All</button>
+            </div>
+        </div>
+    </div>
+</div>
+ <!-- Contact Us -->
+ <div class="contact-us-section pt-5 pb-5" id="contactus">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-7 d-flex flex-column justify-content-center text-center order-1 order-md-2">
+                <h1 class="contact-us-section-heading pb-2">
+                    Virtually Anything is Possible
+                </h1>
+                <div class="order-2 order-md-1 d-md-none">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-set-img.png" class="contact-us-section-image" />
+                </div>
+                <div>
+                    <button class="btn btn-outline-light order-1 order-md-2 mt-3 mb-3">CONTACT US</button>
+                </div>
+            </div>
+            <div class="col-12 col-md-5 d-none d-md-block order-2 order-md-1">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-set-img.png" class="contact-us-section-image p-5" />
+            </div>
+        </div>
+    </div>
+</div>
+<!-- footer section -->
+<div class="vr-footer-section pt-5 pb-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <div class="text-center text-md-left">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-logo-img.png" class="vr-logo" />
+                    <div class="d-flex flex-row justify-content-center justify-content-md-start mt-3 mb-3">
+                        <div class="vr-footer-section-icon-container">
+                            <i class="fab fa-google icon"></i>
+                        </div>
+                        <div class="vr-footer-section-icon-container">
+                            <i class="fab fa-twitter icon"></i>
+                        </div>
+                        <div class="vr-footer-section-icon-container">
+                            <i class="fab fa-instagram icon"></i>
+                        </div>
+                        <!-- <div class="vr-footer-section-icon-container">
+                            <i class="fa fa-linkedin"></i>
+                        </div> -->
+                    </div>
+                    <p class="vr-footer-section-text">
+                        37, Ayur Vigyan Nagar, Vijayawada, AndhraPradesh, India.
+                    </p>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 mt-3">
+                <h1 class="vr-footer-section-heading pb-2">Contact Us</h1>
+                <ul class="vr-footer-section-list">
+                    <li class="mb-3">
+                        <i class="fa fa-envelope icon mr-2"></i>
+                        <span class="vr-footer-section-text">vogetisatyakiran@gmail.com</span>
+                    </li>
+                    <li class="mb-3">
+                        <i class="fas fa-phone-alt icon mr-2"></i>
+                        <span class="vr-footer-section-text">1234506789</span>
+                    </li>
+                    <li class="mb-3">
+                        <i class="fab fa-skype icon mr-2"></i>
+                        <span class="vr-footer-section-text">Satya</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-6 col-md-4 mt-3">
+                <h1 class="vr-footer-section-heading pb-2">Let Us Help You</h1>
+                <ul class="vr-footer-section-list">
+                    <li class="vr-footer-section-text">100% Purchase Protection</li>
+                    <li class="vr-footer-section-text">Your Account</li>
+                    <li class="vr-footer-section-text">Return Centre</li>
+                    <li class="vr-footer-section-text">Help</li>
+                </ul>
+            </div>
+        </div>
+        <hr class="hr-line" />
+        <div class="text-center">
+            <i class="fa fa-copyright icon" aria-hidden="true"></i>
+            <span class="vr-footer-section-copyright">2020 by Satya. Created with Bootstrap.</span>
+        </div>
+    </div>
+</div>
 
 
     <script src="virtualreality.js"></script>
