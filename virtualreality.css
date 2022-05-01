@@ -12,21 +12,23 @@
 }
 .navStyle{
     margin: 0 15px;
+    
 }
 .liItems{
-    color: #323f4b;
+     
     margin-left: auto;
     font-family: Roboto;
     font-weight: 600;
     font-size: 18px;
     padding: 10px;
 }
-ul li {
+.liItems ul li {
 margin-left: 15px;
+
 
 }
 ul li a:hover{
-    color: #7b8794!important;
+    color: black!important;
 }
 .description{
     background-image: url(images/vr-banner-bg.png);
@@ -85,4 +87,211 @@ ul li a:hover{
 .vrKit img{
     width: 200px;
     height: 250px;
+}
+
+.optCtrlStyle img{
+    width: 100%;
+}
+.optCtrlStyle h1{
+    color: #1f2933;
+    font-family: Roboto;
+    font-weight: 800;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.optCtrlStyle p{
+    color:    #7b8794;
+    font-family: Roboto;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.optCtrlStyle button{
+    background: #1a2137;
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+    text-align: start;
+    margin-right: auto;
+}
+ 
+ 
+.contact-us-section {
+    background-color: #222b36;
+}
+
+.contact-us-section-image {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.contact-us-section-heading {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 40px;
+    font-weight: 700;
+}
+
+
+.trending-blogs-section-heading {
+    color: #1f2933;
+    font-family: "Roboto";
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.trending-blogs-card-title {
+    color: #959ead;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.trending-blogs-card-description {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.trending-blogs-card-link {
+    color: #1754a1;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.view-all-button {
+    color: #ffffff;
+    background-color: #1754a1;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 500;
+    width: 173px;
+    height: 56px;
+    border-width: 0;
+    border-radius: 4px;
+}
+
+
+.products-section-heading {
+    color: #1f2933;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.product-card {
+    width: 100%;
+    height: 600px;
+}
+
+.vr-headset-bg-container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-products-headset-img.png");
+    background-size: cover;
+}
+
+.product-card-title {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.product-card-price {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.buy-now-button {
+    color: #ffffff;
+    background-color: transparent;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 500;
+    width: 120px;
+    height: 40px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #ffffff;
+    border-radius: 4px;
+}
+
+.touch-controller-bg-container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-products-headset-with-controllers-img.png");
+    background-size: cover;
+}
+
+.view-all-button {
+    color: #ffffff;
+    background-color: #1754a1;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 500;
+    width: 173px;
+    height: 56px;
+    border-width: 0;
+    border-radius: 4px;
+}
+
+
+.vr-footer-section {
+    background-color: #19232d;
+}
+
+.vr-logo {
+    width: 56px;
+    height: 36px;
+}
+
+.vr-footer-section-icon-container {
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    padding-left: 15px;
+    background-color: #eef0f2;
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
+
+.icon {
+    color: #5a7184;
+    font-size: 18px;
+}
+
+.vr-footer-section-text {
+    color: #5a7184;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.vr-footer-section-heading {
+    color: #5a7184;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.vr-footer-section-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.hr-line {
+    background-color: #5a7184;
+}
+
+.vr-footer-section-copyright {
+    color: #959ead;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400;
 }
